@@ -1,6 +1,6 @@
 a = open('input.txt', 'r')
-numbers = list(map(int, f.readline().split()))
-operation = f.readline().strip()
+numbers = list(map(int, a.readline().split()))
+operation = a.readline().strip()
 a.close()
 
 result = numbers[0]
